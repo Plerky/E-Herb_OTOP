@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name":" ยาดมสมุนไพร",
+        "price": 25,
+        "image": "https://img2.pic.in.th/pic/P-10064_0-700x700-removebg-preview.png"
+
+    },
+    {
+        "id": 2,
+        "name":" น้ำมันสมุนไพร",
+        "price": 69,
+        "image": "https://img2.pic.in.th/pic/e065d0101_2-removebg-preview.png"
+    },
+    {
+        "id": 9,
+        "name":" ขี้ผึ้งสมุนไพร",
+        "price": 50,
+        "image":"https://img2.pic.in.th/pic/download-8c6429cdf4662e200.png"
+    }
+]

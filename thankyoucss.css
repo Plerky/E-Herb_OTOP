@@ -1,0 +1,120 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  body {
+    margin: 0;
+    font-family: Poppins;
+  }
+  footer {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.479);
+    font-family: "Agbalumo", "Arial", sans-serif;
+}
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+}
+  
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #d3c1b5;
+    overflow: hidden;
+}
+.home {
+    display: block;
+    position: relative;
+    height: 47px;
+    margin: 53px 0 0 1742px;
+    color: #030202;
+    font-family: ABeeZee, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+.thank-you {
+    display: block;
+    position: relative;
+    height: 131px;
+    width: 100%;
+    margin: -10px 0 0 685px;
+    color: #3D5300;
+    font-family: Alfa Slab One, var(--default-font-family);
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 131px;
+    text-align: left;
+    white-space: nowrap;
+}
+.qr-code {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 69px 0 0 710px;
+    background: url(https://img2.pic.in.th/pic/qrcode_132667155_d9a50743d7145ac0556b159f638ef7ac.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+}
+.rate-us {
+    display: block;
+    position: relative;
+    height: 66px;
+    margin: 69px 0 0 856px;
+    color: #3D5300;
+    font-family: Alfa Slab One, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65.712px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+}
+.btn {
+  font-size: 36px;
+  color: white;
+  font-family: Alfa Slab One, var(--default-font-family);
+  align-items: center;
+  display: block;
+  text-align: center;
+  position: relative;
+  margin-left: 800px;
+  border: 3px solid #493628;
+  border-radius: 40px;
+  background: #D6C0B3;
+  height: 80px;
+  width: 300px;
+}
+a {
+  text-decoration: none;
+}
+.btn:hover {
+  transform: scale(1.2);
+  transition: 600ms;
+}
+
+.con {
+
+  height: 100%;
+}

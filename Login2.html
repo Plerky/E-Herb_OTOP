@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTOP ผลิตภัณฑ์สมุนไพร - เข้าสู่ระบบ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Sarabun', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(120deg,#93a77c , #6d7c49 , #334217);
+            padding: 20px;
+        }
+
+        .login-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .login-header h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .login-header p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input:focus {
+            border-color: #8ec5fc;
+            outline: none;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: #3D5300;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .btn-secondary {
+            background-color: #a1947f;
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 20px;
+            }
+        }
+        input::placeholder {
+            color: rgb(80, 76, 70);
+            opacity: 0.3;
+        }
+        .login-link {
+                    text-align: center;
+                    margin-top: 20px;
+                    color: #666;
+                }
+
+                .login-link a {
+                    color: #8ec5fc;
+                    text-decoration: none;
+                }
+
+                .login-link a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>OTOP ผลิตภัณฑ์สมุนไพร</h1>
+            <p>ยินดีต้อนรับสู่ร้านค้าOTOP ผลิตภัณฑ์สมุนไพร</p>
+        </div>
+        <form action="checkPW.php" method="post">
+            <div class="input-group">
+                <label for="username">ชื่อผู้ใช้</label>
+                <input type="text" id="username" name="username" required placeholder="Username">
+            </div>
+            <div class="input-group">
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" id="password" name="password" required placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+        </form>
+        <div class="login-link">
+            ยังไม่มีบัญชี? <a href="register.html">สมัครสมาชิก</a>
+        </div>
+    </div>
+</body>
+</html>

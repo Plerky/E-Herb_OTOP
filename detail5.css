@@ -1,0 +1,70 @@
+.body {
+    font-family: "Agbalumo", "Arial", sans-serif;
+    margin: 0;
+}
+
+.product-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #798645;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 200px;
+}
+.product-container:hover {
+    transform: scale(1.02);
+    box-shadow: 20px;
+}
+.product-image {
+    flex: 1;
+    min-height: 500px;
+    background-image: url('https://img2.pic.in.th/pic/download-430c6fd1a11a0f026.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    flex: 1;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #666;
+}
+
+.product-specs {
+    margin: 20px 0;
+    color: #666;
+}
+
+.add-to-cart {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: "Agbalumo", "Arial", sans-serif;
+}
+
+.add-to-cart:hover {
+    transform: scale(1.02);
+    background-color: #C0C78C;
+}
+footer {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.479);
+    font-family: "Agbalumo", "Arial", sans-serif;
+  }

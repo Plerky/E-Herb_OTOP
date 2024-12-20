@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background: #d3c1b5;
+    font-family: "Agbalumo", "Arial", sans-serif;
+}
+
+.con {
+    font-family: "Agbalumo", "Arial", sans-serif;
+}
+
+.container {
+    flex-grow: 1;
+    padding: 2rem; /* เพิ่ม padding เพื่อให้มีระยะห่าง */
+}
+
+footer {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.479);
+
+}
+button:hover {
+    transform: translateY(15px);
+    transition: 500;
+}
+
+.con {
+    font-family: "Agbalumo", "Arial", sans-serif;
+}
+.sidebar-items {
+    padding: 0.875rem 1.125rem;
+    background: #d1af96;
+    border-radius: 12px;
+    color: #333;
+    transition: all 0.3s ease;
+    font-size: 0.8vw;
+    border: 1px solid #d1af96;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    gap: 10px;
+    margin-left: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: medium;
+}
+  
+.sidebar-items:hover {
+    background: linear-gradient(135deg, #856852, #AB886D);
+    color: #fad161;
+    transform: translateY(8px);
+    box-shadow: 0 4px 15px rgba(0, 4, 40, 0.15);
+}
+.logo img {
+    width: 100px; /* ปรับขนาดตามที่คุณต้องการ */
+    height: auto; /* เพื่อรักษาสัดส่วน */
+}

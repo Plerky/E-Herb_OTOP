@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name":" ยาดมสมุนไพร",
+        "price": 25,
+        "image": "https://img2.pic.in.th/pic/P-10064_0-700x700-removebg-preview.png"
+
+    },
+    {
+        "id": 2,
+        "name":" น้ำมันสมุนไพร",
+        "price": 69,
+        "image": "https://img2.pic.in.th/pic/e065d0101_2-removebg-preview.png"
+    },
+    {
+        "id": 3,
+        "name":" ฟ้าทะลายโจร",
+        "price": 150,
+        "image": "https://img2.pic.in.th/pic/Untitled-1-removebg-preview.png"
+    },
+    {
+        "id": 4,
+        "name":" สบู่สมุนไพร",
+        "price": 35,
+        "image": "https://img2.pic.in.th/pic/download-388ac1c5f1e3b5545.png"
+    },
+    {
+        "id": 5,
+        "name":" ยาสระผมสมุนไพร",
+        "price": 250,
+        "image": "https://img2.pic.in.th/pic/download-430c6fd1a11a0f026.png"
+    },
+    {
+        "id": 6,
+        "name":" ชาสมุนไพร",
+        "price": 90,
+        "image":"https://img5.pic.in.th/file/secure-sv1/-02-scaled-removebg-preview.png"
+    },
+    {
+        "id": 7,
+        "name":" น้ำมันมะพร้าวสกัดเย็น",
+        "price": 260,
+        "image":"https://img5.pic.in.th/file/secure-sv1/8857124109049-1__1_-removebg-preview.png"
+    },
+    {
+        "id": 8,
+        "name":" ลูกประคบสมุนไพร",
+        "price": 250,
+        "image":"https://img5.pic.in.th/file/secure-sv1/download-77797c9fd5bda540c.png"
+    },
+    {
+        "id": 9,
+        "name":" ขี้ผึ้งสมุนไพร",
+        "price": 50,
+        "image":"https://img2.pic.in.th/pic/download-8c6429cdf4662e200.png"
+    }]
