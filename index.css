@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agbalumo", "Arial", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    /* background: #aa8bd3; */
+    background-image: url("https://img2.pic.in.th/pic/spices_sprinkles_assorted_1014136_wallhere_com.jpg");
+    background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมเต็มหน้าจอ */
+    background-position: center; /* จัดให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ป้องกันการซ้ำของภาพ */
+}
+.login {
+    /* opacity: 0.7; */
+    background: #9aaf6896;
+    height: 133px;
+    width: 782px;
+    border: 2px solid #9aaf6896;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; /* จัดกึ่งกลางในแนวนอน */
+    align-items: center; /* จัดกึ่งกลางในแนวตั้ง */
+    font-size: 96px; /* ปรับขนาดฟอนต์ให้ใหญ่ขึ้นหากต้องการ */
+    color: #000000; /* สีของข้อความ */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นรูปมือเมื่อชี้ที่ปุ่ม */
+    text-transform: uppercase; /* ทำให้ตัวอักษรเป็นตัวพิมพ์ใหญ่ */
+}
+.login:hover {
+    background: #4c5e3be3;
+}
+
